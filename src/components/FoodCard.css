@@ -1,0 +1,15 @@
+.foodcard__container{
+    margin-top: 3rem;
+}
+
+.foodcard__content{
+    width: 320px;
+    height: 300px;
+    border: 2px solid;
+}
+
+.foodcard__image{
+    width: 320px;
+    height: 200px;
+    background-color: greenyellow;
+}

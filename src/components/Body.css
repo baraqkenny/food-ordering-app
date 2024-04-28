@@ -1,0 +1,39 @@
+.body__container{
+    margin: 10rem 6rem 0 6rem;
+}
+
+.body__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body__content__one h1{
+    font-size: 50px;
+    max-width: 470px;
+}
+
+.body__content__one h1 > span {
+    color: green;
+}
+
+.body__container p {
+    margin-top: 1.5rem;
+    max-width: 380px;
+    line-height: 1.5rem;
+}
+
+.order__now{
+    margin-top: 2.5rem;
+    padding: 1.2rem 3rem;
+    background-color: #39db4a;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 0 20px 0 #39db4a;
+}
+
+.top__rated{
+    margin-top: 7rem;
+}

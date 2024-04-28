@@ -1,0 +1,53 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-family: "Poppins", sans-serif;
+    margin: 2rem 6rem;
+}
+
+.logo::first-letter{
+    color: #fff;
+    padding: 1px 5px;
+    background-color: #39db4a;
+    border-radius: 3px;
+}
+
+.nav__items > ul{
+    display: flex;
+    /* align-items: center; */
+}
+
+.nav__items > ul > li{
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.nav__items > ul > li:hover{
+    text-decoration: underline;
+    color: #39db4a;
+    cursor: pointer;
+}
+
+.nav__items__two{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bx-cart{
+    font-size: 23px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    background-color: #39db4a;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+}
